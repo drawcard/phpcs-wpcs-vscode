@@ -54,6 +54,10 @@ manual, anyway):
 
 1. Grab [the latest snapshot](https://getcomposer.org/composer.phar) of Composer. Save it somewhere you'll remember.
 2. Move the file you just downloaded to the `/usr/local/bin/` directory on your machine.
+3. Make the composer script executable: 
+```
+$ chmod +x /usr/local/bin/composer
+```
 
 To do this, open your terminal navigate to the directory where you downloaded `composer.phar`. Move the file to the diretory mentioned above by issuing the following command:
 
